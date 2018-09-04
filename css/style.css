@@ -58,6 +58,7 @@ header {
 .oMeni h2{
   text-align: center;
   font-size: 40px;
+  margin: 5% auto;
 }
 
 .informacije {
@@ -67,7 +68,9 @@ header {
 }
 
 .programskiJezici {
-  margin-left: 60%;
+  overflow: auto;
+  margin-left: 66%;
+  margin-top: 0;
   padding: 3%;
   border: solid;
 }
