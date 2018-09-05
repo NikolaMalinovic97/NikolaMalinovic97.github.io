@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: 'Muli', sans-serif;
+  background-color: #1BABFF;
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
 
 h2 {
   font-size: 30px;
+  color: #1BABFF;
 }
 
 
@@ -40,6 +42,7 @@ header {
 .bannerContent {
   margin: 10px 20px;
   align-items: center;
+  overflow: auto;
 }
 
 .headerText p {
@@ -53,6 +56,7 @@ header {
   color: white;
   text-shadow: 2px 2px black;
   padding: 2%;
+  margin 0;
 }
 
 .oMeni h2{
@@ -65,6 +69,7 @@ header {
   float: left;
   padding: 3%;
   border: solid;
+  border-color: #1BABFF;
 }
 
 .programskiJezici {
@@ -73,6 +78,7 @@ header {
   margin-top: 0;
   padding: 3%;
   border: solid;
+  border-color: #1BABFF;
 }
 
 .zasto h3 {
@@ -83,3 +89,33 @@ header {
 .zasto p {
   line-height: 180%;
 }
+
+
+/*-------------OBRAZOVANJE--------------*/
+
+.obrazovanje {
+  background-color: #1BABFF;
+  color: white;
+  padding: 2%;
+  text-shadow: 2px 2px black;
+}
+
+.obrazovanje h2{
+  color: #1A278A;
+  text-align: center;
+  margin: 5% 0;
+  font-size: 40px;
+}
+
+dt {
+  margin-left: 100px;
+}
+
+dd {
+  font-size: 20px;
+  color: #1A278A;
+  text-shadow: none;
+}
+
+
+/*------------Footer------------*/
