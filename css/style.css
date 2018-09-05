@@ -15,8 +15,12 @@ h1 {
 h2 {
   font-size: 30px;
   color: #1BABFF;
+  font-family:  'Kaushan Script', cursive;
 }
 
+p {
+  letter-spacing: 1px;
+}
 
 /*-----------HEADER----------------*/
 
@@ -63,6 +67,7 @@ header {
   margin: 0.5%;
   border: solid;
   border-color: #1A278A;
+  border-radius: 2%;
 }
 
 .oMeni h2{
@@ -124,6 +129,7 @@ dd {
   font-size: 20px;
   color: #1A278A;
   text-shadow: none;
+  font-family: 'Kaushan Script', cursive;
 }
 
 
@@ -137,6 +143,7 @@ footer {
   border-top: solid;
   border-color: #808499;
   border-width: thick;
+  overflow: auto;
 }
 
 footer h2 {
@@ -146,7 +153,7 @@ footer h2 {
   margin: 2%;
 }
 
-footer p {
+#email {
   font-family: 'Kaushan Script', cursive;
   font-size: 26px;
   color: white;
@@ -155,4 +162,12 @@ footer p {
 
 .logowrap img {
   width: 80px;
+  margin: auto 1.5%;
+}
+
+#copyright {
+  float: right;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
