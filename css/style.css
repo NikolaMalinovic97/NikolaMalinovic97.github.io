@@ -39,7 +39,7 @@ header {
   border-radius: 50%;
   float: left;
   padding: 3% 0;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .headerText {
@@ -50,7 +50,7 @@ header {
 .bannerContent {
   margin: 10px 20px;
   align-items: center;
-  overflow: auto;
+  clear: both;
 }
 
 .headerText p {
