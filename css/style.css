@@ -1,5 +1,4 @@
 /*-----------GLOBAL------------*/
-
 body {
   margin: 0px;
   font-family: 'Muli', sans-serif;
@@ -9,7 +8,8 @@ body {
 h1 {
   font-family: 'Kaushan Script', cursive;
   font-size: 60px;
-  padding-top: 4%;
+  margin-top: 0;
+  padding-top: 2%;
 }
 
 h2 {
@@ -30,8 +30,20 @@ header {
   width: 100%;
   border-bottom: solid;
   border-top: solid;
+  border-color: #1A278A;
+  border-width: thick;
+  border-radius: 0% 0% 12% 12%;
+  border-bottom: solid;
   border-color: #808499;
   border-width: thick;
+}
+
+.bannerContent {
+  margin: 0;
+  align-items: center;
+  clear: both;
+  width: 90%;
+  margin-left: 7%;
 }
 
 .profilnaSlika {
@@ -39,24 +51,41 @@ header {
   border-radius: 50%;
   float: left;
   padding: 3% 0;
-  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .headerText {
-  text-align: center;
   color: white;
-}
-
-.bannerContent {
-  margin: 10px 20px;
-  align-items: center;
-  clear: both;
+  margin-top: 0%;
+  width: 100%;
 }
 
 .headerText p {
   margin-top: 4%;
 }
 
+/*-----------NAVIGATION--------*/
+nav {
+  background: #1BABFF;
+  text-align: center;
+  font-size: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 0.5% 3%;
+  width: 15%;
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+nav a:hover {
+  background-color: #808499;
+  border-radius: 0 0 85% 85%;
+}
 /*-----------O MENI------------*/
 
 .oMeni {
@@ -79,23 +108,30 @@ header {
 .informacije {
   float: left;
   padding: 3%;
-  border: solid;
-  border-color: #1BABFF;
   border-radius: 5%;
+  width: 61%;
+  min-width: 250px;
+  background: #1BABFF;
+  border: solid;
+  border-color: #1A278A;
 }
 
 .programskiJezici {
   overflow: auto;
-  margin-left: 66%;
+  margin-left: 71%;
   margin-top: 0;
   padding: 3%;
   border: solid;
-  border-color: #1BABFF;
+  border-color: #1A278A;
   border-radius: 5%;
+  width: 22%;
+  background: #1BABFF;
 }
 
 .zasto h3 {
-  margin-left: 13%;
+  width: 61%;
+  /*margin-left: 13%;*/
+  text-align: center;
   margin-bottom: 4%;
 }
 
@@ -111,7 +147,6 @@ header {
   color: white;
   padding: 2%;
   text-shadow: 2px 2px black;
-  margin-bottom: 4%;
 }
 
 .obrazovanje h2{
@@ -122,7 +157,9 @@ header {
 }
 
 dt {
-  margin-left: 100px;
+  margin-left: 9%;
+  width: 88%;
+  margin-bottom: 4%;
 }
 
 dd {
@@ -137,27 +174,29 @@ dd {
 
 footer {
   background-color: #1A278A;
-  padding: 2%;
+  padding: 0%;
   text-align: center;
   border-bottom: solid;
   border-top: solid;
   border-color: #808499;
   border-width: thick;
   overflow: auto;
+  border-radius: 12% 12% 0 0;
 }
 
 footer h2 {
   font-family: 'Kaushan Script', cursive;
-  font-size: 60px;
+  font-size: 300%;
   color: white;
-  margin: 2%;
+  margin-bottom: 0.5%;
+  margin-top: 0%;
 }
 
 #email {
   font-family: 'Kaushan Script', cursive;
-  font-size: 26px;
+  font-size: 130%;
   color: white;
-  margin: 1%;
+  margin: 0%;
 }
 
 .logowrap img {
@@ -166,8 +205,14 @@ footer h2 {
 }
 
 #copyright {
-  float: right;
   color: white;
-  margin: 0;
+  margin: 0 1% 0 0;
+  float: right;
   padding: 0;
+  font-size: 80%;
+}
+
+.logowrap a:hover {
+  border-radius: 50%;
+  background: #808499;
 }
