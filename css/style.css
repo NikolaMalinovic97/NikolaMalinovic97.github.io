@@ -3,6 +3,7 @@ body {
   margin: 0px;
   font-family: 'Muli', sans-serif;
   background-color: #1BABFF;
+  background: url(../img/background2.jpg);
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  color: #1BABFF;
+  color: #E85F0C;
   font-family:  'Kaushan Script', cursive;
 }
 
@@ -22,10 +23,27 @@ p {
   letter-spacing: 1px;
 }
 
+.prednjaPozadina {
+  background: rgba(17, 52, 110, 0.5);
+}
+
+.zadnjaPozadina {
+  background-image:  url(../img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.zadnjaPozadina:first-child { /*oblik pozadine headera*/
+  border-radius: 0% 0% 12% 12%;
+}
+
+.zadnjaPozadina:nth-child(2) { /*oblik pozadine o meni*/
+  border-radius: 2%;
+}
+
 /*-----------HEADER----------------*/
 
 header {
-  background-color: #1A278A;
   display: inline-block;
   width: 100%;
   border-bottom: solid;
@@ -34,7 +52,7 @@ header {
   border-width: thick;
   border-radius: 0% 0% 12% 12%;
   border-bottom: solid;
-  border-color: #808499;
+  border-color: #E85F0C;
   border-width: thick;
 }
 
@@ -66,7 +84,6 @@ header {
 
 /*-----------NAVIGATION--------*/
 nav {
-  background: #1BABFF;
   text-align: center;
   font-size: 0;
 }
@@ -83,19 +100,20 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #808499;
+  background-color: #E85F0C;
   border-radius: 0 0 85% 85%;
+  color: black;
 }
 /*-----------O MENI------------*/
 
 .oMeni {
-  background-color: #808499;
   color: white;
   text-shadow: 2px 2px black;
   padding: 2%;
   margin: 0.5%;
+  margin-top: 2%;
   border: solid;
-  border-color: #1A278A;
+  border-color: #E85F0C;
   border-radius: 2%;
 }
 
@@ -111,9 +129,9 @@ nav a:hover {
   border-radius: 5%;
   width: 61%;
   min-width: 250px;
-  background: #1BABFF;
+  background: url(../img/background2.jpg);
   border: solid;
-  border-color: #1A278A;
+  border-color: #E85F0C;
 }
 
 .programskiJezici {
@@ -122,10 +140,10 @@ nav a:hover {
   margin-top: 0;
   padding: 3%;
   border: solid;
-  border-color: #1A278A;
+  border-color: #E85F0C;
   border-radius: 5%;
   width: 22%;
-  background: #1BABFF;
+  background: url(../img/background2.jpg);
 }
 
 .zasto h3 {
@@ -143,14 +161,13 @@ nav a:hover {
 /*-------------OBRAZOVANJE--------------*/
 
 .obrazovanje {
-  background-color: #1BABFF;
   color: white;
   padding: 2%;
   text-shadow: 2px 2px black;
 }
 
 .obrazovanje h2{
-  color: #1A278A;
+  color: #E85F0C;
   text-align: center;
   margin: 5% 0;
   font-size: 40px;
@@ -164,7 +181,7 @@ dt {
 
 dd {
   font-size: 20px;
-  color: #1A278A;
+  color: #E85F0C;
   text-shadow: none;
   font-family: 'Kaushan Script', cursive;
 }
@@ -178,7 +195,7 @@ footer {
   text-align: center;
   border-bottom: solid;
   border-top: solid;
-  border-color: #808499;
+  border-color: #E85F0C;
   border-width: thick;
   overflow: auto;
   border-radius: 12% 12% 0 0;
