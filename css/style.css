@@ -110,10 +110,21 @@ nav a:hover {
   color: white;
   text-shadow: 2px 2px black;
   padding: 2%;
-  margin: 0.5%;
-  margin-top: 2%;
-  border: solid;
+  /*margin: 1.5%;
+  margin-top: 2%;*/
+  border-top: solid;
+  border-bottom: solid;
   border-color: #E85F0C;
+  border-radius: 2%;
+}
+
+#backgroundWrapper {
+  width: 97%;
+  margin-left: 1.5%;
+  margin-top: 1%;
+  background-image:  url(../img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   border-radius: 2%;
 }
 
@@ -227,9 +238,9 @@ footer h2 {
 #copyright {
   color: white;
   margin: 0 1% 0 0;
-  float: right;
   padding: 0;
   font-size: 80%;
+  text-align: right;
 }
 
 .logowrap a:hover {
