@@ -141,7 +141,8 @@ nav a:hover {
   width: 61%;
   min-width: 250px;
   background: url(../img/background2.jpg);
-  border: solid;
+  border-top: solid;
+  border-bottom: solid;
   border-color: #E85F0C;
 }
 
@@ -150,7 +151,8 @@ nav a:hover {
   margin-left: 71%;
   margin-top: 0;
   padding: 3%;
-  border: solid;
+  border-top: solid;
+  border-bottom: solid;
   border-color: #E85F0C;
   border-radius: 5%;
   width: 22%;
