@@ -53,7 +53,6 @@ header {
   border-radius: 0% 0% 12% 12%;
   border-bottom: solid;
   border-color: #E85F0C;
-  border-width: thick;
 }
 
 .bannerContent {
@@ -99,19 +98,12 @@ nav a {
   font-size: 16px;
 }
 
-nav a:hover {
-  background-color: #E85F0C;
-  border-radius: 0 0 85% 85%;
-  color: black;
-}
 /*-----------O MENI------------*/
 
 .oMeni {
   color: white;
   text-shadow: 2px 2px black;
   padding: 2%;
-  /*margin: 1.5%;
-  margin-top: 2%;*/
   border-top: solid;
   border-bottom: solid;
   border-color: #E85F0C;
@@ -161,7 +153,6 @@ nav a:hover {
 
 .zasto h3 {
   width: 61%;
-  /*margin-left: 13%;*/
   text-align: center;
   margin-bottom: 4%;
 }
@@ -200,7 +191,7 @@ dd {
 }
 
 
-/*------------Footer------------*/
+/*------------FOOTER------------*/
 
 footer {
   background-color: #1A278A;
@@ -248,4 +239,112 @@ footer h2 {
 .logowrap a:hover {
   border-radius: 50%;
   background: #E85F0C;
+}
+
+/*///////////  RESPONSIBLE DESIGN  ////////*/
+
+/*----------DESKTOP-----------*/
+@media (min-width: 901px) {
+
+  nav a:hover {
+    background-color: #E85F0C;
+    border-radius: 0 0 85% 85%;
+    color: black;
+  }
+}
+
+/*----------MOBILNI-----------*/
+@media (max-width: 900px) {
+
+  /*---------HEADER--------*/
+  .bannerContent {
+    text-align: center;
+  }
+
+  .profilnaSlika {
+    float: none;
+    margin-right: 0;
+
+  }
+
+  /*--------NAVIGATION--------*/
+  nav {
+    align-items: center;
+    width: 80%;
+    margin: 6% 10%;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 4% 0%;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5% 1px;
+    background-color: #E85F0C;
+  }
+
+  nav a:first-child {
+    border-radius: 50% 50% 15% 15%;
+  }
+
+  nav a:nth-child(2) {
+    border-radius: 15%;
+  }
+
+  nav a:last-child {
+    border-radius: 15% 15% 50% 50%;
+  }
+
+  /*---------O MENI--------*/
+  .oMeni {
+    margin-bottom: 8%;
+  }
+
+  .oMeni h2 {
+    margin-bottom: 10%;
+  }
+
+  .informacije {
+    float: none;
+    width: 80%;
+    margin: 8% auto;
+  }
+
+  .programskiJezici {
+    width: 80%;
+    margin: 16% auto;
+  }
+
+  .zasto {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+  .zasto h3 {
+    margin: 10% auto;
+  }
+
+  /*------OBRAZOVANJE------*/
+  .obrazovanje {
+    margin-bottom: 6%;
+  }
+
+  dd {
+    margin-top: 15%;
+  }
+
+  dt {
+    margin-top: 5%;
+  }
+
+  /*---------FOOTER--------*/
+  #copyright {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
 }
